@@ -27,6 +27,16 @@
 		13AA326E2B0E410B0012E612 /* QuoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA326D2B0E410B0012E612 /* QuoteWidget.swift */; };
 		13AA32702B0E410C0012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA326F2B0E410C0012E612 /* Assets.xcassets */; };
 		13AA32742B0E410C0012E612 /* QuoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 13AA32642B0E410A0012E612 /* QuoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
+		13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
+		13AA327E2B0E47810012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
+		13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
+		13AA32802B0E478C0012E612 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
+		13AA32812B0E478E0012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32342B0E36910012E612 /* QuoteAPI.swift */; };
+		13AA32822B0E47920012E612 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
+		13AA32832B0E47950012E612 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32302B0E360E0012E612 /* QuoteRepository.swift */; };
+		13AA32842B0E47990012E612 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
+		13AA32852B0E47A00012E612 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AA321D2B0E32CA0012E612 /* source.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +86,7 @@
 		13AA326D2B0E410B0012E612 /* QuoteWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteWidget.swift; sourceTree = "<group>"; };
 		13AA326F2B0E410C0012E612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA32712B0E410C0012E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13AA327B2B0E44270012E612 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,12 +281,29 @@
 		13AA326A2B0E410B0012E612 /* QuoteWidget */ = {
 			isa = PBXGroup;
 			children = (
+				13AA327A2B0E44070012E612 /* View */,
+				13AA32792B0E43FF0012E612 /* ViewModel */,
 				13AA326B2B0E410B0012E612 /* QuoteWidgetBundle.swift */,
-				13AA326D2B0E410B0012E612 /* QuoteWidget.swift */,
 				13AA326F2B0E410C0012E612 /* Assets.xcassets */,
 				13AA32712B0E410C0012E612 /* Info.plist */,
 			);
 			path = QuoteWidget;
+			sourceTree = "<group>";
+		};
+		13AA32792B0E43FF0012E612 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13AA327B2B0E44270012E612 /* QuoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13AA327A2B0E44070012E612 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13AA326D2B0E410B0012E612 /* QuoteWidget.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA32852B0E47A00012E612 /* source.json in Resources */,
 				13AA32702B0E410C0012E612 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +418,7 @@
 				13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */,
 				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
 				13AA32102B0E325E0012E612 /* QuotesListView.swift in Sources */,
+				13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
 				13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */,
 				13AA32312B0E360E0012E612 /* QuoteRepository.swift in Sources */,
 			);
@@ -398,8 +428,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA327E2B0E47810012E612 /* Quote.swift in Sources */,
+				13AA32842B0E47990012E612 /* Quote+Mappers.swift in Sources */,
+				13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
+				13AA32802B0E478C0012E612 /* DataParser.swift in Sources */,
+				13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */,
+				13AA32812B0E478E0012E612 /* QuoteAPI.swift in Sources */,
 				13AA326E2B0E410B0012E612 /* QuoteWidget.swift in Sources */,
+				13AA32822B0E47920012E612 /* QuoteDTO.swift in Sources */,
 				13AA326C2B0E410B0012E612 /* QuoteWidgetBundle.swift in Sources */,
+				13AA32832B0E47950012E612 /* QuoteRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

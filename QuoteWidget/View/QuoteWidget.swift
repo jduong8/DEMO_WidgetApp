@@ -10,33 +10,25 @@ import SwiftUI
 
 struct Provider: TimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), emoji: "😀")
+        SimpleEntry(date: Date(), quote: Quote.quoteMock)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀")
+        let entry = SimpleEntry(date: Date(), quote: Quote.quoteMock)
         completion(entry)
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, emoji: "😀")
-            entries.append(entry)
-        }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
+        let entry = SimpleEntry(date: Date(), quote: QuoteViewModel().quote)
+        let timeline = Timeline(entries: [entry], policy: .atEnd)
         completion(timeline)
     }
+
 }
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
-    let emoji: String
+    let quote: Quote
 }
 
 struct QuoteWidgetEntryView : View {
@@ -47,11 +39,14 @@ struct QuoteWidgetEntryView : View {
             colorForDayOfWeek(entry.date)
                 .ignoresSafeArea()
             VStack {
-                Text("Time:")
-                Text(entry.date, style: .time)
-                
-                Text("Emoji:")
-                Text(entry.emoji)
+                Text(entry.quote.quote)
+                    .font(.footnote)
+                    .lineLimit(5, reservesSpace: false)
+                    .multilineTextAlignment(.center)
+
+                Text("by \(entry.quote.author)")
+                    .font(.caption2)
+                    .padding()
             }
         }
     }
@@ -95,6 +90,6 @@ struct QuoteWidget: Widget {
 #Preview(as: .systemSmall) {
     QuoteWidget()
 } timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
+    SimpleEntry(date: .now, quote: .quoteMock)
+    SimpleEntry(date: .now, quote: .init(quote: "🤯", author: "Me"))
 }
