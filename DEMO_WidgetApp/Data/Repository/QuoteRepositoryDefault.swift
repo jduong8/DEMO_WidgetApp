@@ -27,7 +27,7 @@ class QuoteRepositoryDefault: QuoteRepository {
             return Quote(quote: "", author: "")
         }
         
-        let index = (dayOfWeek + 5) % 7 // Pour commencer par lundi
+        let index = (dayOfWeek - 1)
         let quoteData = quotes[index]
         return Quote(with: quoteData)
     }
