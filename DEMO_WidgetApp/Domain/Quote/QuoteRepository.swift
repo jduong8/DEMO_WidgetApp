@@ -9,4 +9,5 @@ import Foundation
 
 protocol QuoteRepository {
     func getAllQuotes() -> [Quote]
+    func getOneQuote() -> Quote
 }
