@@ -12,6 +12,9 @@
 		13AA32122B0E32600012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32112B0E32600012E612 /* Assets.xcassets */; };
 		13AA32152B0E32600012E612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32142B0E32600012E612 /* Preview Assets.xcassets */; };
 		13AA321E2B0E32CA0012E612 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AA321D2B0E32CA0012E612 /* source.json */; };
+		13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
+		13AA32282B0E33DE0012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
+		13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		13AA32112B0E32600012E612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA32142B0E32600012E612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13AA321D2B0E32CA0012E612 /* source.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = source.json; sourceTree = "<group>"; };
+		13AA32232B0E33B40012E612 /* QuoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTO.swift; sourceTree = "<group>"; };
+		13AA32272B0E33DE0012E612 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quote+Mappers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 		13AA320C2B0E325E0012E612 /* DEMO_WidgetApp */ = {
 			isa = PBXGroup;
 			children = (
+				13AA321F2B0E33080012E612 /* Data */,
+				13AA32222B0E33A70012E612 /* Domain */,
 				13AA321B2B0E32BB0012E612 /* Resources */,
 				13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */,
 				13AA320F2B0E325E0012E612 /* ContentView.swift */,
@@ -84,6 +92,55 @@
 				13AA321D2B0E32CA0012E612 /* source.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		13AA321F2B0E33080012E612 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				13AA32212B0E332A0012E612 /* Networking */,
+				13AA32202B0E33250012E612 /* DTO */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		13AA32202B0E33250012E612 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				13AA32232B0E33B40012E612 /* QuoteDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		13AA32212B0E332A0012E612 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		13AA32222B0E33A70012E612 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				13AA32262B0E33D60012E612 /* Mappers */,
+				13AA32252B0E33D30012E612 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		13AA32252B0E33D30012E612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AA32272B0E33DE0012E612 /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13AA32262B0E33D60012E612 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */,
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA32282B0E33DE0012E612 /* Quote.swift in Sources */,
+				13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */,
+				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
 				13AA32102B0E325E0012E612 /* ContentView.swift in Sources */,
 				13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */,
 			);
