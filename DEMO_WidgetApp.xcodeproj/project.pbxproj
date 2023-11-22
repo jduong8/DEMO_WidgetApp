@@ -20,6 +20,7 @@
 		13AA32332B0E36470012E612 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
 		13AA32352B0E36910012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32342B0E36910012E612 /* QuoteAPI.swift */; };
 		13AA323C2B0E38480012E612 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */; };
+		13AA32402B0E38F70012E612 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323F2B0E38F70012E612 /* QuoteRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRepositoryDefault.swift; sourceTree = "<group>"; };
 		13AA32342B0E36910012E612 /* QuoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteAPI.swift; sourceTree = "<group>"; };
 		13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewModel.swift; sourceTree = "<group>"; };
+		13AA323F2B0E38F70012E612 /* QuoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,6 @@
 				13AA32362B0E37F20012E612 /* Presentation */,
 				13AA321B2B0E32BB0012E612 /* Resources */,
 				13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */,
-				13AA320F2B0E325E0012E612 /* QuotesListView.swift */,
 				13AA32112B0E32600012E612 /* Assets.xcassets */,
 				13AA32132B0E32600012E612 /* Preview Content */,
 			);
@@ -194,6 +195,8 @@
 		13AA32382B0E38070012E612 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13AA320F2B0E325E0012E612 /* QuotesListView.swift */,
+				13AA323F2B0E38F70012E612 /* QuoteRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AA32282B0E33DE0012E612 /* Quote.swift in Sources */,
+				13AA32402B0E38F70012E612 /* QuoteRowView.swift in Sources */,
 				13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */,
 				13AA32332B0E36470012E612 /* QuoteRepositoryDefault.swift in Sources */,
 				13AA323C2B0E38480012E612 /* QuotesListViewModel.swift in Sources */,
