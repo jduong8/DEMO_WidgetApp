@@ -12,13 +12,8 @@
 		13AA32122B0E32600012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32112B0E32600012E612 /* Assets.xcassets */; };
 		13AA32152B0E32600012E612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32142B0E32600012E612 /* Preview Assets.xcassets */; };
 		13AA321E2B0E32CA0012E612 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AA321D2B0E32CA0012E612 /* source.json */; };
-		13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
 		13AA32282B0E33DE0012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
-		13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
 		13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
-		13AA32312B0E360E0012E612 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32302B0E360E0012E612 /* QuoteRepository.swift */; };
-		13AA32332B0E36470012E612 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
-		13AA32352B0E36910012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32342B0E36910012E612 /* QuoteAPI.swift */; };
 		13AA323C2B0E38480012E612 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */; };
 		13AA32402B0E38F70012E612 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323F2B0E38F70012E612 /* QuoteRowView.swift */; };
 		13AA32672B0E410B0012E612 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AA32662B0E410A0012E612 /* WidgetKit.framework */; };
@@ -30,13 +25,10 @@
 		13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
 		13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
 		13AA327E2B0E47810012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
-		13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
 		13AA32802B0E478C0012E612 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
-		13AA32812B0E478E0012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32342B0E36910012E612 /* QuoteAPI.swift */; };
-		13AA32822B0E47920012E612 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
-		13AA32832B0E47950012E612 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32302B0E360E0012E612 /* QuoteRepository.swift */; };
-		13AA32842B0E47990012E612 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
 		13AA32852B0E47A00012E612 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AA321D2B0E32CA0012E612 /* source.json */; };
+		13AA32882B0E4E660012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32872B0E4E660012E612 /* QuoteAPI.swift */; };
+		13AA32892B0E4E660012E612 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32872B0E4E660012E612 /* QuoteAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +62,8 @@
 		13AA32112B0E32600012E612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA32142B0E32600012E612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13AA321D2B0E32CA0012E612 /* source.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = source.json; sourceTree = "<group>"; };
-		13AA32232B0E33B40012E612 /* QuoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTO.swift; sourceTree = "<group>"; };
 		13AA32272B0E33DE0012E612 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
-		13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quote+Mappers.swift"; sourceTree = "<group>"; };
 		13AA322C2B0E350D0012E612 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
-		13AA32302B0E360E0012E612 /* QuoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRepository.swift; sourceTree = "<group>"; };
-		13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRepositoryDefault.swift; sourceTree = "<group>"; };
-		13AA32342B0E36910012E612 /* QuoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteAPI.swift; sourceTree = "<group>"; };
 		13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewModel.swift; sourceTree = "<group>"; };
 		13AA323F2B0E38F70012E612 /* QuoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRowView.swift; sourceTree = "<group>"; };
 		13AA32642B0E410A0012E612 /* QuoteWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuoteWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +74,7 @@
 		13AA326F2B0E410C0012E612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13AA32712B0E410C0012E612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13AA327B2B0E44270012E612 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		13AA32872B0E4E660012E612 /* QuoteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +119,10 @@
 		13AA320C2B0E325E0012E612 /* DEMO_WidgetApp */ = {
 			isa = PBXGroup;
 			children = (
-				13AA321F2B0E33080012E612 /* Data */,
-				13AA32222B0E33A70012E612 /* Domain */,
-				13AA32362B0E37F20012E612 /* Presentation */,
+				13AA32212B0E332A0012E612 /* Networking */,
+				13AA32862B0E4C320012E612 /* Model */,
+				13AA32392B0E380A0012E612 /* ViewModel */,
+				13AA32382B0E38070012E612 /* View */,
 				13AA321B2B0E32BB0012E612 /* Resources */,
 				13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */,
 				13AA32112B0E32600012E612 /* Assets.xcassets */,
@@ -166,90 +155,13 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
-		13AA321F2B0E33080012E612 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				13AA322E2B0E35DF0012E612 /* Repository */,
-				13AA32212B0E332A0012E612 /* Networking */,
-				13AA32202B0E33250012E612 /* DTO */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		13AA32202B0E33250012E612 /* DTO */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32232B0E33B40012E612 /* QuoteDTO.swift */,
-			);
-			path = DTO;
-			sourceTree = "<group>";
-		};
 		13AA32212B0E332A0012E612 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				13AA322C2B0E350D0012E612 /* DataParser.swift */,
-				13AA32342B0E36910012E612 /* QuoteAPI.swift */,
+				13AA32872B0E4E660012E612 /* QuoteAPI.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		13AA32222B0E33A70012E612 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				13AA322F2B0E35FF0012E612 /* Quote */,
-				13AA32262B0E33D60012E612 /* Mappers */,
-				13AA32252B0E33D30012E612 /* Model */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		13AA32252B0E33D30012E612 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32272B0E33DE0012E612 /* Quote.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		13AA32262B0E33D60012E612 /* Mappers */ = {
-			isa = PBXGroup;
-			children = (
-				13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */,
-			);
-			path = Mappers;
-			sourceTree = "<group>";
-		};
-		13AA322E2B0E35DF0012E612 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */,
-			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
-		13AA322F2B0E35FF0012E612 /* Quote */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32302B0E360E0012E612 /* QuoteRepository.swift */,
-			);
-			path = Quote;
-			sourceTree = "<group>";
-		};
-		13AA32362B0E37F20012E612 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32372B0E38050012E612 /* Quote */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		13AA32372B0E38050012E612 /* Quote */ = {
-			isa = PBXGroup;
-			children = (
-				13AA32392B0E380A0012E612 /* ViewModel */,
-				13AA32382B0E38070012E612 /* View */,
-			);
-			path = Quote;
 			sourceTree = "<group>";
 		};
 		13AA32382B0E38070012E612 /* View */ = {
@@ -304,6 +216,14 @@
 				13AA326D2B0E410B0012E612 /* QuoteWidget.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		13AA32862B0E4C320012E612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13AA32272B0E33DE0012E612 /* Quote.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,17 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AA32282B0E33DE0012E612 /* Quote.swift in Sources */,
+				13AA32882B0E4E660012E612 /* QuoteAPI.swift in Sources */,
 				13AA32402B0E38F70012E612 /* QuoteRowView.swift in Sources */,
-				13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */,
-				13AA32332B0E36470012E612 /* QuoteRepositoryDefault.swift in Sources */,
 				13AA323C2B0E38480012E612 /* QuotesListViewModel.swift in Sources */,
-				13AA32352B0E36910012E612 /* QuoteAPI.swift in Sources */,
 				13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */,
-				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
 				13AA32102B0E325E0012E612 /* QuotesListView.swift in Sources */,
 				13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
 				13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */,
-				13AA32312B0E360E0012E612 /* QuoteRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,15 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AA327E2B0E47810012E612 /* Quote.swift in Sources */,
-				13AA32842B0E47990012E612 /* Quote+Mappers.swift in Sources */,
 				13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
 				13AA32802B0E478C0012E612 /* DataParser.swift in Sources */,
-				13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */,
-				13AA32812B0E478E0012E612 /* QuoteAPI.swift in Sources */,
+				13AA32892B0E4E660012E612 /* QuoteAPI.swift in Sources */,
 				13AA326E2B0E410B0012E612 /* QuoteWidget.swift in Sources */,
-				13AA32822B0E47920012E612 /* QuoteDTO.swift in Sources */,
 				13AA326C2B0E410B0012E612 /* QuoteWidgetBundle.swift in Sources */,
-				13AA32832B0E47950012E612 /* QuoteRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

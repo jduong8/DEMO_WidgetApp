@@ -10,7 +10,7 @@ import Foundation
 final class QuoteAPI {
     private let dataParser = DataParser()
     
-    func getQuotesData() -> [QuoteDTO] {
+    func getQuotesData() -> [Quote] {
         dataParser.load("source.json")
     }
 }

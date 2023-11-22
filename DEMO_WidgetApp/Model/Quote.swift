@@ -7,10 +7,11 @@
 
 import Foundation
 
-struct Quote: Hashable {
+struct Quote: Hashable, Decodable {
     let quote: String
     let author: String
 }
+
 extension Quote {
     static var quoteMock: Quote {
         .init(

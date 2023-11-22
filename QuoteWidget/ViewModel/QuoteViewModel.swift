@@ -8,14 +8,27 @@
 import Foundation
 
 class QuoteViewModel: ObservableObject {
-
-    private let quoteRepository: QuoteRepository
     
     var quote: Quote {
-        quoteRepository.getOneQuote()
+        self.getOneQuote()
     }
     
-    init(quoteRepository: QuoteRepository = QuoteRepositoryDefault()) {
-        self.quoteRepository = quoteRepository
+    private let api: QuoteAPI
+    
+    init(api: QuoteAPI = .init()) {
+        self.api = api
+    }
+    
+    func getOneQuote() -> Quote {
+        let dayOfWeek = Calendar.current.component(.weekday, from: Date())
+        let quotes = api.getQuotesData()
+        
+        guard quotes.count == 7 else {
+            return Quote(quote: "", author: "")
+        }
+        
+        let index = (dayOfWeek - 1)
+        let result = quotes[index]
+        return result
     }
 }
