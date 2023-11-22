@@ -15,6 +15,7 @@
 		13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
 		13AA32282B0E33DE0012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
 		13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
+		13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		13AA32232B0E33B40012E612 /* QuoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTO.swift; sourceTree = "<group>"; };
 		13AA32272B0E33DE0012E612 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quote+Mappers.swift"; sourceTree = "<group>"; };
+		13AA322C2B0E350D0012E612 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		13AA32212B0E332A0012E612 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				13AA322C2B0E350D0012E612 /* DataParser.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				13AA32282B0E33DE0012E612 /* Quote.swift in Sources */,
 				13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */,
+				13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */,
 				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
 				13AA32102B0E325E0012E612 /* ContentView.swift in Sources */,
 				13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */,
