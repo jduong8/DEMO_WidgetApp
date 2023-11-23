@@ -91,5 +91,5 @@ struct QuoteWidget: Widget {
     QuoteWidget()
 } timeline: {
     SimpleEntry(date: .now, quote: .quoteMock)
-    SimpleEntry(date: .now, quote: .init(quote: "🤯", author: "Me"))
+    SimpleEntry(date: .now, quote: .init(quote: "🤯", author: "Me", category: "test"))
 }

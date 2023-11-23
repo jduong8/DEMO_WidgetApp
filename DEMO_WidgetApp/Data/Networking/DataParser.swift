@@ -29,4 +29,28 @@ class DataParser {
             fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
         }
     }
+    
+    func fetchData<T: Decodable>(
+        urlString: String,
+        model: T.Type,
+        keyDecoding: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys
+    ) async throws -> T {
+        guard let url = URL(string: urlString) else {
+            throw APIError.invalidPath
+        }
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = "GET"
+        urlRequest.addValue("MYkSzQvmYbsPfSn8UinrOg==RiuuxYAiEF5LbJCO", forHTTPHeaderField: "X-Api-Key")
+        
+        let (data, response) = try await URLSession.shared.data(for: urlRequest)
+        
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+            throw APIError.decoding
+        }
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = keyDecoding
+        let decoded = try decoder.decode(T.self, from: data)
+        
+        return decoded        
+    }
 }

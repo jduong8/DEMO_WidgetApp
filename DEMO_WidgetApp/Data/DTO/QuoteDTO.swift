@@ -10,4 +10,5 @@ import Foundation
 struct QuoteDTO: Decodable {
     let quote: String?
     let author: String?
+    let category: String?
 }

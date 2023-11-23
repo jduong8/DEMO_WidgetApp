@@ -24,11 +24,17 @@ class QuoteRepositoryDefault: QuoteRepository {
         let quotes = api.getQuotesData()
         
         guard quotes.count == 7 else {
-            return Quote(quote: "", author: "")
+            return Quote(quote: "", author: "", category: nil)
         }
         
         let index = (dayOfWeek - 1)
         let quoteData = quotes[index]
         return Quote(with: quoteData)
     }
+    
+    func getAllQuotesFromApi() async throws -> [Quote] {
+        let response = try await api.getQuotesAPI()
+        return response.map { Quote(with: $0) }
+    }
+    
 }

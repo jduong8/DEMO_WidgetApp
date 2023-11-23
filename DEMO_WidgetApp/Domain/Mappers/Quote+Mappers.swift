@@ -11,5 +11,6 @@ extension Quote {
     init(with dto: QuoteDTO) {
         self.quote = dto.quote ?? "No quote provided"
         self.author = dto.author ?? "Unknown Author"
+        self.category = dto.category
     }
 }

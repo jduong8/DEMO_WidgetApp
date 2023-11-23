@@ -10,4 +10,5 @@ import Foundation
 protocol QuoteRepository {
     func getAllQuotes() -> [Quote]
     func getOneQuote() -> Quote
+    func getAllQuotesFromApi() async throws -> [Quote]
 }

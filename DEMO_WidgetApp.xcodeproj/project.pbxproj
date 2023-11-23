@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130161A62B0F3FD5009B107A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161A52B0F3FD5009B107A /* APIError.swift */; };
 		13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */; };
 		13AA32102B0E325E0012E612 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320F2B0E325E0012E612 /* QuotesListView.swift */; };
 		13AA32122B0E32600012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32112B0E32600012E612 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		130161A52B0F3FD5009B107A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		13AA320A2B0E325E0012E612 /* DEMO_WidgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEMO_WidgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO_WidgetAppApp.swift; sourceTree = "<group>"; };
 		13AA320F2B0E325E0012E612 /* QuotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				13AA322C2B0E350D0012E612 /* DataParser.swift */,
 				13AA32342B0E36910012E612 /* QuoteAPI.swift */,
+				130161A52B0F3FD5009B107A /* APIError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				13AA322B2B0E33F90012E612 /* Quote+Mappers.swift in Sources */,
 				13AA32332B0E36470012E612 /* QuoteRepositoryDefault.swift in Sources */,
 				13AA323C2B0E38480012E612 /* QuotesListViewModel.swift in Sources */,
+				130161A62B0F3FD5009B107A /* APIError.swift in Sources */,
 				13AA32352B0E36910012E612 /* QuoteAPI.swift in Sources */,
 				13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */,
 				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
