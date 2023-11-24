@@ -7,18 +7,9 @@
 
 import Foundation
 
-enum APIError: Error {
-    case invalidPath
-    case decoding
-}
-
-extension APIError {
-    var localizedDescription: String {
-        switch self {
-        case .invalidPath:
-            return "Invalid path"
-        case .decoding:
-           return  "There was an error decoding the type"
-        }
+extension DataParser {
+    public enum APIError: Error {
+        case invalidPath
+        case decoding
     }
 }
