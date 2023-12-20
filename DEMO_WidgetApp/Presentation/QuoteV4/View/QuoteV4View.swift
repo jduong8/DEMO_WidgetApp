@@ -9,7 +9,7 @@ import SwiftUI
 
 struct QuoteV4View: View {
     
-    @StateObject private var viewmodel = QuoteV4ViewModel()
+    @StateObject private var viewmodel = QuoteV4ViewModel.shared
     
     var body: some View {
         NavigationStack {

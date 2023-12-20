@@ -7,24 +7,28 @@
 
 import Foundation
 
-@MainActor
 class QuoteV4ViewModel: ObservableObject {
     
+    static let shared = QuoteV4ViewModel()
+    
     @Published var quotes: [Quote] = []
-    @Published var quoteHistory: [Quote] = []
-
+    var quoteHistory: [Quote] = []
     private let quoteRepository: QuoteRepository
 
     init(quoteRepository: QuoteRepository = QuoteRepositoryDefault()) {
         self.quoteRepository = quoteRepository
-        getQuotes()
+        DispatchQueue.main.async {
+            self.getQuotes()
+        }
     }
     
     func getQuotes() {
-        Task {
-            let fetchedQuotes = try await quoteRepository.getAllQuotesFromApi()
-            self.quotes = fetchedQuotes
-            addToHistory(quotes: fetchedQuotes)
+        DispatchQueue.main.async { [self] in
+            Task {
+                let fetchedQuotes = try await self.quoteRepository.getAllQuotesFromApi()
+                self.quotes = fetchedQuotes
+                self.addToHistory(quotes: fetchedQuotes)
+            }
         }
     }
 
@@ -32,6 +36,28 @@ class QuoteV4ViewModel: ObservableObject {
         for quote in quotes {
             let historyEntry = Quote(quote: quote.quote, author: quote.author, category: quote.category)
             quoteHistory.append(historyEntry)
+        }
+    }
+    
+    func selectRequest(for request: QuoteRequest) {
+        switch request {
+        case .randomQuote:
+            getQuotes()
+        case .getCount:
+            getHistoryCount()
+        }
+    }
+
+    func getHistoryCount() {
+        print(quoteHistory.count)
+    }
+
+    static func allRequest() -> [QuoteEntity] {
+        return QuoteRequest.allCases.map { request in
+            QuoteEntity(
+                id: request.rawValue,
+                name: request.displayName
+            )
         }
     }
 }

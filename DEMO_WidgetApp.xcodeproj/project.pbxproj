@@ -9,19 +9,35 @@
 /* Begin PBXBuildFile section */
 		130161A62B0F3FD5009B107A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161A52B0F3FD5009B107A /* APIError.swift */; };
 		130161AB2B0F4470009B107A /* QuoteV4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161AA2B0F4470009B107A /* QuoteV4ViewModel.swift */; };
-		130161AC2B0F4470009B107A /* QuoteV4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161AA2B0F4470009B107A /* QuoteV4ViewModel.swift */; };
 		130161AE2B0F4541009B107A /* QuoteV4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161AD2B0F4541009B107A /* QuoteV4View.swift */; };
-		130161AF2B0F4541009B107A /* QuoteV4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161AD2B0F4541009B107A /* QuoteV4View.swift */; };
+		137C38182B330226005F8D7B /* QuoteWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA326D2B0E410B0012E612 /* QuoteWidget.swift */; };
+		137C38192B3302B7005F8D7B /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
+		138C924E2B32EB9400788568 /* QuoteIntentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C924D2B32EB9400788568 /* QuoteIntentExtension.swift */; };
+		138C92502B32EB9400788568 /* QuoteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C924F2B32EB9400788568 /* QuoteIntent.swift */; };
+		138C92542B32EB9400788568 /* QuoteIntent.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 138C924B2B32EB9400788568 /* QuoteIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		138C92592B32EE3C00788568 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
+		138C92612B32FFFC00788568 /* QuoteV4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161AA2B0F4470009B107A /* QuoteV4ViewModel.swift */; };
+		138C92622B33000A00788568 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
+		138C92632B33001200788568 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32302B0E360E0012E612 /* QuoteRepository.swift */; };
+		138C92662B33009B00788568 /* QuoteIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C924F2B32EB9400788568 /* QuoteIntent.swift */; };
+		138C92672B3300C100788568 /* QuoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32342B0E36910012E612 /* QuoteAPI.swift */; };
+		138C92682B3300DA00788568 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
+		138C92692B3300DE00788568 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161A52B0F3FD5009B107A /* APIError.swift */; };
+		138C926A2B3300E100788568 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32232B0E33B40012E612 /* QuoteDTO.swift */; };
+		138C926B2B3300E800788568 /* Quote+Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322A2B0E33F90012E612 /* Quote+Mappers.swift */; };
+		138C926E2B3300F700788568 /* QuoteRowV4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECF32B10F1E1007DE694 /* QuoteRowV4View.swift */; };
+		138C92702B3300FF00788568 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */; };
+		138C92712B33010100788568 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320F2B0E325E0012E612 /* QuotesListView.swift */; };
+		138C92722B33010400788568 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323F2B0E38F70012E612 /* QuoteRowView.swift */; };
+		138C92732B33010800788568 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 13AA321D2B0E32CA0012E612 /* source.json */; };
 		13A5ECF22B10F0CB007DE694 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130161A52B0F3FD5009B107A /* APIError.swift */; };
 		13A5ECF42B10F1E1007DE694 /* QuoteRowV4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECF32B10F1E1007DE694 /* QuoteRowV4View.swift */; };
 		13A5ECF52B10F1E1007DE694 /* QuoteRowV4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECF32B10F1E1007DE694 /* QuoteRowV4View.swift */; };
 		13A5ECF82B10F3D2007DE694 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECF72B10F3D2007DE694 /* MasterView.swift */; };
-		13A5ECF92B10F3D2007DE694 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECF72B10F3D2007DE694 /* MasterView.swift */; };
 		13A5ECFA2B10F445007DE694 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320F2B0E325E0012E612 /* QuotesListView.swift */; };
 		13A5ECFB2B10F44E007DE694 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323B2B0E38480012E612 /* QuotesListViewModel.swift */; };
 		13A5ECFC2B10F463007DE694 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA323F2B0E38F70012E612 /* QuoteRowView.swift */; };
 		13A5ECFF2B10F975007DE694 /* QuoteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECFE2B10F975007DE694 /* QuoteHistory.swift */; };
-		13A5ED002B10F975007DE694 /* QuoteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECFE2B10F975007DE694 /* QuoteHistory.swift */; };
 		13AA320E2B0E325E0012E612 /* DEMO_WidgetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320D2B0E325E0012E612 /* DEMO_WidgetAppApp.swift */; };
 		13AA32102B0E325E0012E612 /* QuotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA320F2B0E325E0012E612 /* QuotesListView.swift */; };
 		13AA32122B0E32600012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA32112B0E32600012E612 /* Assets.xcassets */; };
@@ -43,7 +59,6 @@
 		13AA32702B0E410C0012E612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AA326F2B0E410C0012E612 /* Assets.xcassets */; };
 		13AA32742B0E410C0012E612 /* QuoteWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 13AA32642B0E410A0012E612 /* QuoteWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
-		13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA327B2B0E44270012E612 /* QuoteViewModel.swift */; };
 		13AA327E2B0E47810012E612 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32272B0E33DE0012E612 /* Quote.swift */; };
 		13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA32322B0E36470012E612 /* QuoteRepositoryDefault.swift */; };
 		13AA32802B0E478C0012E612 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AA322C2B0E350D0012E612 /* DataParser.swift */; };
@@ -55,6 +70,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		138C92522B32EB9400788568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13AA32022B0E325E0012E612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138C924A2B32EB9400788568;
+			remoteInfo = QuoteIntent;
+		};
 		13AA32722B0E410C0012E612 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 13AA32022B0E325E0012E612 /* Project object */;
@@ -65,6 +87,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		138C92552B32EB9400788568 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				138C92542B32EB9400788568 /* QuoteIntent.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13AA32752B0E410C0012E612 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,6 +115,12 @@
 		130161A52B0F3FD5009B107A /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		130161AA2B0F4470009B107A /* QuoteV4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteV4ViewModel.swift; sourceTree = "<group>"; };
 		130161AD2B0F4541009B107A /* QuoteV4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteV4View.swift; sourceTree = "<group>"; };
+		138C924B2B32EB9400788568 /* QuoteIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = QuoteIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		138C924D2B32EB9400788568 /* QuoteIntentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteIntentExtension.swift; sourceTree = "<group>"; };
+		138C924F2B32EB9400788568 /* QuoteIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteIntent.swift; sourceTree = "<group>"; };
+		138C92512B32EB9400788568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138C925A2B32EF9700788568 /* DEMO-WidgetApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DEMO-WidgetApp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		138C925B2B32F03B00788568 /* DEMO_WidgetApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DEMO_WidgetApp.entitlements; sourceTree = "<group>"; };
 		13A5ECF32B10F1E1007DE694 /* QuoteRowV4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRowV4View.swift; sourceTree = "<group>"; };
 		13A5ECF72B10F3D2007DE694 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		13A5ECFE2B10F975007DE694 /* QuoteHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHistory.swift; sourceTree = "<group>"; };
@@ -111,6 +150,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		138C92482B32EB9400788568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13AA32072B0E325E0012E612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +203,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		138C924C2B32EB9400788568 /* QuoteIntent */ = {
+			isa = PBXGroup;
+			children = (
+				138C924D2B32EB9400788568 /* QuoteIntentExtension.swift */,
+				138C924F2B32EB9400788568 /* QuoteIntent.swift */,
+				138C92512B32EB9400788568 /* Info.plist */,
+			);
+			path = QuoteIntent;
+			sourceTree = "<group>";
+		};
 		13A5ECF62B10F3C6007DE694 /* Master */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +226,7 @@
 			children = (
 				13AA320C2B0E325E0012E612 /* DEMO_WidgetApp */,
 				13AA326A2B0E410B0012E612 /* QuoteWidget */,
+				138C924C2B32EB9400788568 /* QuoteIntent */,
 				13AA32652B0E410A0012E612 /* Frameworks */,
 				13AA320B2B0E325E0012E612 /* Products */,
 			);
@@ -180,6 +237,7 @@
 			children = (
 				13AA320A2B0E325E0012E612 /* DEMO_WidgetApp.app */,
 				13AA32642B0E410A0012E612 /* QuoteWidgetExtension.appex */,
+				138C924B2B32EB9400788568 /* QuoteIntent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +245,8 @@
 		13AA320C2B0E325E0012E612 /* DEMO_WidgetApp */ = {
 			isa = PBXGroup;
 			children = (
+				138C925B2B32F03B00788568 /* DEMO_WidgetApp.entitlements */,
+				138C925A2B32EF9700788568 /* DEMO-WidgetApp-Info.plist */,
 				13AA321F2B0E33080012E612 /* Data */,
 				13AA32222B0E33A70012E612 /* Domain */,
 				13AA32362B0E37F20012E612 /* Presentation */,
@@ -368,6 +428,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		138C924A2B32EB9400788568 /* QuoteIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138C92582B32EB9400788568 /* Build configuration list for PBXNativeTarget "QuoteIntent" */;
+			buildPhases = (
+				138C92472B32EB9400788568 /* Sources */,
+				138C92482B32EB9400788568 /* Frameworks */,
+				138C92492B32EB9400788568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteIntent;
+			productName = QuoteIntent;
+			productReference = 138C924B2B32EB9400788568 /* QuoteIntent.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
 		13AA32092B0E325E0012E612 /* DEMO_WidgetApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13AA32182B0E32600012E612 /* Build configuration list for PBXNativeTarget "DEMO_WidgetApp" */;
@@ -376,11 +453,13 @@
 				13AA32072B0E325E0012E612 /* Frameworks */,
 				13AA32082B0E325E0012E612 /* Resources */,
 				13AA32752B0E410C0012E612 /* Embed Foundation Extensions */,
+				138C92552B32EB9400788568 /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				13AA32732B0E410C0012E612 /* PBXTargetDependency */,
+				138C92532B32EB9400788568 /* PBXTargetDependency */,
 			);
 			name = DEMO_WidgetApp;
 			productName = DEMO_WidgetApp;
@@ -411,9 +490,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					138C924A2B32EB9400788568 = {
+						CreatedOnToolsVersion = 15.1;
+					};
 					13AA32092B0E325E0012E612 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -437,11 +519,20 @@
 			targets = (
 				13AA32092B0E325E0012E612 /* DEMO_WidgetApp */,
 				13AA32632B0E410A0012E612 /* QuoteWidgetExtension */,
+				138C924A2B32EB9400788568 /* QuoteIntent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		138C92492B32EB9400788568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C92732B33010800788568 /* source.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13AA32082B0E325E0012E612 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +555,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		138C92472B32EB9400788568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C92502B32EB9400788568 /* QuoteIntent.swift in Sources */,
+				138C92612B32FFFC00788568 /* QuoteV4ViewModel.swift in Sources */,
+				138C92682B3300DA00788568 /* DataParser.swift in Sources */,
+				138C92632B33001200788568 /* QuoteRepository.swift in Sources */,
+				138C92622B33000A00788568 /* QuoteRepositoryDefault.swift in Sources */,
+				138C92672B3300C100788568 /* QuoteAPI.swift in Sources */,
+				138C926E2B3300F700788568 /* QuoteRowV4View.swift in Sources */,
+				138C926A2B3300E100788568 /* QuoteDTO.swift in Sources */,
+				138C92592B32EE3C00788568 /* Quote.swift in Sources */,
+				138C924E2B32EB9400788568 /* QuoteIntentExtension.swift in Sources */,
+				138C926B2B3300E800788568 /* Quote+Mappers.swift in Sources */,
+				138C92712B33010100788568 /* QuotesListView.swift in Sources */,
+				138C92722B33010400788568 /* QuoteRowView.swift in Sources */,
+				138C92702B3300FF00788568 /* QuotesListViewModel.swift in Sources */,
+				138C92692B3300DE00788568 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13AA32062B0E325E0012E612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,8 +591,10 @@
 				130161A62B0F3FD5009B107A /* APIError.swift in Sources */,
 				13AA32352B0E36910012E612 /* QuoteAPI.swift in Sources */,
 				13AA322D2B0E350D0012E612 /* DataParser.swift in Sources */,
+				137C38182B330226005F8D7B /* QuoteWidget.swift in Sources */,
 				13AA32242B0E33B40012E612 /* QuoteDTO.swift in Sources */,
 				13A5ECF42B10F1E1007DE694 /* QuoteRowV4View.swift in Sources */,
+				138C92662B33009B00788568 /* QuoteIntent.swift in Sources */,
 				13AA32102B0E325E0012E612 /* QuotesListView.swift in Sources */,
 				13A5ECFF2B10F975007DE694 /* QuoteHistory.swift in Sources */,
 				13AA327C2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
@@ -494,15 +609,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13AA327E2B0E47810012E612 /* Quote.swift in Sources */,
-				13A5ED002B10F975007DE694 /* QuoteHistory.swift in Sources */,
 				13AA32842B0E47990012E612 /* Quote+Mappers.swift in Sources */,
-				13AA327D2B0E44270012E612 /* QuoteViewModel.swift in Sources */,
-				13A5ECF92B10F3D2007DE694 /* MasterView.swift in Sources */,
-				130161AC2B0F4470009B107A /* QuoteV4ViewModel.swift in Sources */,
 				13AA32802B0E478C0012E612 /* DataParser.swift in Sources */,
 				13AA327F2B0E47880012E612 /* QuoteRepositoryDefault.swift in Sources */,
 				13A5ECFA2B10F445007DE694 /* QuotesListView.swift in Sources */,
 				13A5ECF52B10F1E1007DE694 /* QuoteRowV4View.swift in Sources */,
+				137C38192B3302B7005F8D7B /* QuoteViewModel.swift in Sources */,
 				13AA32812B0E478E0012E612 /* QuoteAPI.swift in Sources */,
 				13A5ECFB2B10F44E007DE694 /* QuotesListViewModel.swift in Sources */,
 				13AA326E2B0E410B0012E612 /* QuoteWidget.swift in Sources */,
@@ -510,7 +622,6 @@
 				13AA326C2B0E410B0012E612 /* QuoteWidgetBundle.swift in Sources */,
 				13A5ECFC2B10F463007DE694 /* QuoteRowView.swift in Sources */,
 				13AA32832B0E47950012E612 /* QuoteRepository.swift in Sources */,
-				130161AF2B0F4541009B107A /* QuoteV4View.swift in Sources */,
 				13A5ECF22B10F0CB007DE694 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +629,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		138C92532B32EB9400788568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138C924A2B32EB9400788568 /* QuoteIntent */;
+			targetProxy = 138C92522B32EB9400788568 /* PBXContainerItemProxy */;
+		};
 		13AA32732B0E410C0012E612 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 13AA32632B0E410A0012E612 /* QuoteWidgetExtension */;
@@ -526,6 +642,58 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		138C92562B32EB9400788568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8683PB3PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuoteIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iJoe.DEMO-WidgetApp.QuoteIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		138C92572B32EB9400788568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8683PB3PNR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuoteIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuoteIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iJoe.DEMO-WidgetApp.QuoteIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		13AA32162B0E32600012E612 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -651,17 +819,19 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DEMO_WidgetApp/DEMO_WidgetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DEMO_WidgetApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 8683PB3PNR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DEMO-WidgetApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -681,17 +851,19 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DEMO_WidgetApp/DEMO_WidgetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DEMO_WidgetApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 8683PB3PNR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DEMO-WidgetApp-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -762,6 +934,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		138C92582B32EB9400788568 /* Build configuration list for PBXNativeTarget "QuoteIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138C92562B32EB9400788568 /* Debug */,
+				138C92572B32EB9400788568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		13AA32052B0E325E0012E612 /* Build configuration list for PBXProject "DEMO_WidgetApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

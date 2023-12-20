@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct MasterView: View {
+    
+    init() {
+        QuoteShortcuts.updateAppShortcutParameters()
+    }
+    
     var body: some View {
         TabView {
             QuotesListView()
